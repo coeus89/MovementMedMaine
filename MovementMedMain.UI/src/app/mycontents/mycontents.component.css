@@ -1,0 +1,16 @@
+mat-grid-tile:nth-child(odd) {
+  background: lightblue;
+}
+
+mat-grid-tile:nth-child(even) {
+  background: lightyellow;
+}
+
+mat-chip:nth-child(odd) {
+  background: #7B1FA2;
+}
+
+mat-chip:nth-child(even) {
+  background: #69F0AE;
+  color: black;
+}
