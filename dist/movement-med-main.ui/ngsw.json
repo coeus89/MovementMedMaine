@@ -1,0 +1,95 @@
+{
+  "configVersion": 1,
+  "timestamp": 1668721462376,
+  "index": "/MovementMedMaine/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/MovementMedMaine/favicon.ico",
+        "/MovementMedMaine/index.html",
+        "/MovementMedMaine/main.a3cf0653c68bd5cd.js",
+        "/MovementMedMaine/manifest.webmanifest",
+        "/MovementMedMaine/polyfills.d3b9bdfcb6fae4a4.js",
+        "/MovementMedMaine/runtime.f4d91b3c0adb7562.js",
+        "/MovementMedMaine/styles.ed5dc4e75324ee69.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/MovementMedMaine/assets/icons/MMLogo.jpeg",
+        "/MovementMedMaine/assets/icons/icon-128x128.png",
+        "/MovementMedMaine/assets/icons/icon-144x144.png",
+        "/MovementMedMaine/assets/icons/icon-152x152.png",
+        "/MovementMedMaine/assets/icons/icon-192x192.png",
+        "/MovementMedMaine/assets/icons/icon-384x384.png",
+        "/MovementMedMaine/assets/icons/icon-512x512.png",
+        "/MovementMedMaine/assets/icons/icon-72x72.png",
+        "/MovementMedMaine/assets/icons/icon-96x96.png",
+        "/MovementMedMaine/assets/pictures/Chiropractic_Manipulation.jpg",
+        "/MovementMedMaine/assets/pictures/Examination.jpg",
+        "/MovementMedMaine/assets/pictures/MMLogo.jpeg",
+        "/MovementMedMaine/assets/pictures/Soft_Tissue_Mobilization.jpg",
+        "/MovementMedMaine/assets/pictures/Therapeutic_Exercise.jpg",
+        "/MovementMedMaine/assets/pictures/neck_tilt.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/MovementMedMaine/assets/icons/MMLogo.jpeg": "98a73abdb664dcf4fd7c4838a5f342090f397212",
+    "/MovementMedMaine/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/MovementMedMaine/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/MovementMedMaine/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/MovementMedMaine/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/MovementMedMaine/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/MovementMedMaine/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/MovementMedMaine/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/MovementMedMaine/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/MovementMedMaine/assets/pictures/Chiropractic_Manipulation.jpg": "35ff24e69f4dfa5814517dc12338d089f8c9263b",
+    "/MovementMedMaine/assets/pictures/Examination.jpg": "5bdd4ac5a09e4e93b5706e3c6511e92d059b5ac3",
+    "/MovementMedMaine/assets/pictures/MMLogo.jpeg": "98a73abdb664dcf4fd7c4838a5f342090f397212",
+    "/MovementMedMaine/assets/pictures/Soft_Tissue_Mobilization.jpg": "0897533884b715ea86f42c3211f243aa2893999f",
+    "/MovementMedMaine/assets/pictures/Therapeutic_Exercise.jpg": "63fe7f76b59ff41221070ea86fd0d57973a2b845",
+    "/MovementMedMaine/assets/pictures/neck_tilt.jpg": "9a184c8743068fd88613c2b018ec2b4090b9e114",
+    "/MovementMedMaine/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/MovementMedMaine/index.html": "dbb674abfbe73cb7089e31825227844647aa107d",
+    "/MovementMedMaine/main.a3cf0653c68bd5cd.js": "028aafbb3edfb728eb1e9bfee45552872fc7439c",
+    "/MovementMedMaine/manifest.webmanifest": "0f4bac1cc67ecdb0bf052453ce2c1a268929d7d5",
+    "/MovementMedMaine/polyfills.d3b9bdfcb6fae4a4.js": "3fb6d919c4552880b99c8a9d4b4ef57472dbd7ea",
+    "/MovementMedMaine/runtime.f4d91b3c0adb7562.js": "726c8e8f040c6dce31b32e1dc8cc112080dbf7db",
+    "/MovementMedMaine/styles.ed5dc4e75324ee69.css": "655d084d0cece2460e0c8230e821a793ec004ba6"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
