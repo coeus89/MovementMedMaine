@@ -1,9 +1,108 @@
-mat-grid-tile:nth-child(odd) {
+/* mat-grid-tile:nth-child(odd) {
   background: lightblue;
 }
 
 mat-grid-tile:nth-child(even) {
   background: lightyellow;
+} */
+
+mat-grid-tile-content {
+  column-count: 1;
+}
+
+.mat-button-white {
+  margin-right: 1em;
+  background-color: whitesmoke;
+  color:black;
+}
+
+.headingA1 {
+  font-weight: 400;
+  font-size: 3em;
+  color:white;
+  font-weight: bolder;
+  margin-bottom: .33333333em;
+  margin-top: .75em;
+  line-height: 1em;
+  letter-spacing: normal;
+  background-size: cover;
+  text-align: center;
+  column-count: 1;
+}
+
+.headingA1Black {
+  font-weight: 400;
+  font-size: 3em;
+  color:black;
+  font-weight: bolder;
+  margin-bottom: .33333333em;
+  margin-top: .75em;
+  line-height: 1em;
+  letter-spacing: normal;
+  background-size: cover;
+  text-align: center;
+  column-count: 1;
+}
+
+.bodyA1 {
+  font-weight: 400;
+  font-size: 2em;
+  color:white;
+  margin-bottom: .33333333em;
+  margin-top: .75em;
+  line-height: 1em;
+  letter-spacing: normal;
+  background-size: cover;
+  text-align: center;
+  column-count: 1;
+}
+
+.bodyA1Black {
+  font-weight: 400;
+  font-size: 1.5em;
+  color:black;
+  margin-bottom: .33333333em;
+  margin-top: .75em;
+  line-height: 1em;
+  letter-spacing: normal;
+  background-size: cover;
+  text-align: center;
+  column-count: 1;
+}
+
+.grid_box {
+  background-color: #111;
+}
+
+.mat-button-base {
+  margin-right: 1em;
+  background-color: #69F0AE;
+  color:black;
+}
+.example-tab-icon {
+  margin-right: 8px;
+}
+
+mat-grid-tile {
+  vertical-align: top;
+}
+
+.grid_body_text {
+  font-size: 1.5em;
+  margin-bottom: .33333333em;
+  margin-top: .75em;
+  column-count: 1;
+  color: black;
+}
+
+.table1:nth-child(odd) {
+  background: lightgray;
+  background-size: contain;
+}
+
+.table1:nth-child(even) {
+  background: whitesmoke;
+  background-size: contain;
 }
 
 mat-chip:nth-child(odd) {
@@ -13,4 +112,12 @@ mat-chip:nth-child(odd) {
 mat-chip:nth-child(even) {
   background: #69F0AE;
   color: black;
+}
+
+.myIframe {
+  border: none;
+  overflow: hidden;
+  size: calc();
+  width: 340; 
+  height: 500;
 }

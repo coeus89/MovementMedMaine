@@ -53,13 +53,15 @@ import { MatTableModule } from '@angular/material/table';
 import { TopNavComponent } from './layout/top-nav/top-nav.component';
 import { MycontentsComponent } from './mycontents/mycontents.component';
 import { MyaboutComponent } from './myabout/myabout.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavComponent,
     MycontentsComponent,
-    MyaboutComponent
+    MyaboutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

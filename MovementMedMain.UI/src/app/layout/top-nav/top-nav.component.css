@@ -3,3 +3,10 @@
   background-color: #69F0AE;
   color:black;
 }
+
+.toolbar{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: var(--content-width, 100%);
+}

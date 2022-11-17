@@ -25,7 +25,7 @@ export class MycontentsComponent implements OnInit {
     this.dataSource = this.myContentsService.getInsuranceProvicers();
     this.insurance = this.myContentsService.getInsuranceProvicers();
 
-
+    // This is a template for if this starts connecting to a back end service
     // this.myContentsService.getInsuranceProvicers()
     // .subscribe({
     //   next: (successResponse) =>
